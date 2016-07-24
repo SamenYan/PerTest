@@ -1,0 +1,140 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Tahoma,Arial,"Microsoft YaHei UI","Microsoft YaHei",STXihei,SimSun,sans-serif;
+    font-size: 14px;
+}
+.navbar-default .navbar-header > img{
+	margin: 6px 0;
+	height: 30px;
+}
+.navbar-default .navbar-nav >li > a{
+	font-size: 16px;
+	color: #333;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #13a4e5;
+    background-color: #f8f8f8;
+}
+.navbar-default .navbar-nav>li>a.btn-self{
+	display: inline-block;
+	text-align: center;
+	margin: 5px 10px;
+	padding: 5px 10px;
+	width: 95px;
+	line-height: 26px;
+	color: #fff;
+    background: #39c179;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.navbar-default .navbar-nav>li>a.resigter{
+    background: #13a8e9;
+}
+.navbar-default .navbar-nav>li>a.btn-self:hover{
+	background: #39c179;
+}
+
+.cont-self{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto 60px;
+    background: url(../images/hf-layout-a-bg.jpg) repeat center center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.fs-12{
+	font-size: 12px;
+}
+.fs-16{
+	font-size: 16px;
+}
+.fs-18{
+	font-size: 18px;
+}
+.fs-20{
+	font-size: 20px;
+}
+.fs-22{
+	font-size: 115%;
+}
+.fs-30{
+	font-size: 214%;
+}
+.mt-10{
+	margin-top:10px; 
+}
+.mt-20{
+	margin-top:20px; 
+}
+.mt-30{
+	margin-top:30px; 
+}
+.mt-50{
+	margin-top:50px; 
+}
+.mt-80{
+	margin-top:80px; 
+}
+.more{
+    display: block;
+    height: 49px;
+    width: 199px;
+    border: 1px solid #13a8ea;
+    font-size: 18px;
+    text-align: center;
+    line-height: 49px;
+    color: #13a8ea;
+    border-radius: 4px;
+    margin: 0 auto;	
+}
+.img-self{
+	width: 100%;
+}
+.img-bg{
+	background-color: #a9e1f7;
+	padding: 20px 0;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.img-bg-left{
+	margin-right:-10px; 
+}
+
+.footer-self{
+	padding: 40px 0;
+    background-color: #363e44;
+    color: #fff;
+    padding-top: 36px;
+    padding-bottom: 32px;
+	margin-top: 50px;
+}
+.footer-self .after{
+	position: relative;
+}
+.footer-self .after:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 1px;
+    height: 90px;
+    background: #5e6a74;
+}
+.footer-self .grey{
+	color: #ccc;
+}
+.footer-p > p{
+	margin: 2px;
+}
+@media (max-width: 979px) and (min-width: 200px){
+	.footer-self .after:before{
+	    content: '';
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    width: 50%;
+	    height: 1px;
+	    background: #5e6a74;
+	}
+}
